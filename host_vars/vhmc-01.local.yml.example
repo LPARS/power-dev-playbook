@@ -7,8 +7,8 @@ vios_instances:
     vios_ip: "10.0.1.10"
     vios_gateway: "10.0.1.1"
     vios_subnetmask: "255.255.255.0"
-    network_macaddr: "aee237ceb612"
     settings:
+      profile_name: "default_profile"
       proc_mode: "ded"
       min_procs: 1
       desired_procs: 1
