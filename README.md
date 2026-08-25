@@ -54,3 +54,7 @@ with VIOS images uploaded to it):
 Make sure to set `gather_facts` to `false` when running playbooks that target your HMC. Ansible likes to create
 temporary directories, and setting `gather_facts` to `true` enables that and conflicts with the locked-down nature of
 the HMC.
+
+## License
+
+MIT
